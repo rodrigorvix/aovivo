@@ -15,10 +15,10 @@ public class CalcTurmasMedia {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Informe a quantidade de turmas");
+        System.out.println("Informe a quantidade de turmas:");
         quantidadeTurmas = input.nextInt();
 
-        System.out.println("Informe a quantidade de alunos por turma");
+        System.out.println("Informe a quantidade de alunos por turma:");
         quantidadeAlunosTurma = input.nextInt();
 
         listaNotas = new double[quantidadeTurmas][quantidadeAlunosTurma];
